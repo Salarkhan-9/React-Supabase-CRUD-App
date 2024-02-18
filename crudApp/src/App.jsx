@@ -4,7 +4,7 @@ import { supabase } from "./createClient";
 const App = () => {
   const [users, setUsers] = useState([]);
   const [user, setUser] = useState({ name: "", age: "" });
-  const [user2, setUser2] = useState({id:'', name: "", age: "" });
+  const [user2, setUser2] = useState({ id: "", name: "", age: "" });
 
   useEffect(() => {
     fetchUsers();
@@ -39,27 +39,19 @@ const App = () => {
   function displayUsers(userId) {
     users.map((user) => {
       if (user.id === userId) {
-        setUser2({ id:user.id,name: user.name, age: user.age });
+        setUser2({ id: user.id, name: user.name, age: user.age });
       }
       return null; // Add this line to fix the map function
     });
   }
 
-
-
-
-
-
-async function updateUser(userId) {
-  const { error } = await supabase
-    .from("users")
-    .update({ name: user2.name, age: user2.age })
-    .eq("id", userId);
-  fetchUsers(); // Refresh the user list after updating
-}
-
-
-
+  async function updateUser(userId) {
+    const { error } = await supabase
+      .from("users")
+      .update({ name: user2.name, age: user2.age })
+      .eq("id", userId);
+    fetchUsers(); // Refresh the user list after updating
+  }
 
   function handleChange(event) {
     setUser((prevFormData) => {
@@ -116,7 +108,7 @@ async function updateUser(userId) {
           </form>
 
           {/* Entry Form 2*/}
-          <form className="w-1/3 mr-4" onSubmit={()=>updateUser(user2.id)}>
+          <form className="w-1/3 mr-4" onSubmit={() => updateUser(user2.id)}>
             <input
               type="text"
               defaultValue={user2.name}
