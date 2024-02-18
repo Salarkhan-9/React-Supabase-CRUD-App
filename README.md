@@ -12,7 +12,7 @@ The CRUD App Allows to create a record in database , which can be read in the fo
 
 ### Execution
 To Run the project perform the following CLI commands in Terminal of VS Code
--npm i
--cd ./curdApp/
--npm run dev
+- npm i
+- cd ./curdApp/
+- npm run dev
 
