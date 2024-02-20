@@ -3,9 +3,8 @@
 The CRUD App Allows to create a record in database , which can be read in the form of a table ,Record/tuple can be updated and deleted  
 
 ## FramWorks
-![icons8-tailwind-css-48](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/e320ebb5-3eea-440a-8de6-b56d37655d02)![icons8-react-native-48](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/31796211-1609-4960-86a3-4e6c4b6994a6)![icons8-vite-48](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/659c512b-b6c5-4d09-9ec1-8d5332deae3d)
+![icons8-tailwind-css-48](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/e320ebb5-3eea-440a-8de6-b56d37655d02)![icons8-react-native-48](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/31796211-1609-4960-86a3-4e6c4b6994a6)![icons8-vite-48](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/659c512b-b6c5-4d09-9ec1-8d5332deae3d)![supabase_ (2)](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/1d3df6b3-7d8f-4a12-b893-88b7f5c503d9)
 
-![supabase_](https://github.com/Salarkhan-9/React-Supabase-CRUD-App/assets/98265148/d1c1269a-87dd-4619-9b0a-f99ccecd37d4)
 
 - React+Vite
 - Tailwind CSS
